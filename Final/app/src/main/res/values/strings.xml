@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">I-LEAVE</string>
+    <string name="date_selected"></string>
+    <string name="date_button_set1">  Date From   </string>
+    <string name="date_selected1"></string>
+    <string name="date_button_set2">  Date To   </string>
+    <string name="date_selected2"></string>
+</resources>

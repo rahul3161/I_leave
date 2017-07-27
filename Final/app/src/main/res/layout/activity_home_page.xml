@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#d5e2f9"
+    tools:context="example.com.afinal.HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textvie"
+        android:textColor="#d5e2f9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iocl"
+        android:layout_marginTop="2sp"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:layout_marginTop="15sp"
+        android:background="#f93403"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I-LEAVE APP"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="15sp"
+        android:background="#0f2793"
+        android:textSize="30sp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:layout_marginTop="15sp"
+        android:background="#f93403"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="update"
+            android:id="@+id/updbtn"
+            android:background="#f93403"
+            android:textColor="#fff"
+            android:layout_marginTop="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calendar"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:gravity="center"
+            android:onClick="calendar"
+            android:id="@+id/cal"
+            android:background="#f93403"
+            android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_gravity="center"
+        android:onClick="about"
+        android:layout_marginTop="15sp"
+        android:id="@+id/abt"
+        android:gravity="center"
+        android:background="#f93403"
+        android:textColor="#fff"/>
+
+</LinearLayout>
